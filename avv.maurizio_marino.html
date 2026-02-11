@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avv. Maurizio Marino | Studio Legale</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin:0;
+    font-family:'Inter', sans-serif;
+    background:#eaf6ff; /* celestino chiarissimo */
+    color:#222;
+}
+
+header {
+    background:#eaf6ff; /* celestino chiarissimo */
+    padding:15px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
+    position:sticky;
+    top:0;
+}
+
+.logo-area{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-area img{
+    height:50px;
+    width:auto;
+    border-radius:50%;
+}
+
+nav a {
+    margin-left:25px;
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.hero {
+    padding:120px 20px;
+    text-align:center;
+    background:linear-gradient(180deg,#eaf6ff,#dff0fb); /* celestino chiarissimo anche qui */
+}
+
+.hero h1 {
+    font-size:42px;
+    font-weight:600;
+}
+
+.hero p {
+    max-width:700px;
+    margin:auto;
+    color:#555;
+}
+
+.consulenza-btn {
+    margin-top:30px;
+    background:#1f2937;
+    color:white;
+    border:none;
+    padding:16px 30px;
+    font-size:16px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:0.3s;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+.consulenza-btn:hover {
+    background:#111827;
+    transform:translateY(-2px);
+}
+
+section {
+    padding:80px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.chi-box {
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.05);
+}
+
+.cards {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card {
+    background:white;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+footer {
+    background:#111827;
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo-area">
+        <!-- Metti il file del logo nella stessa cartella del sito e chiamalo logo.png -->
+        <img src="logo.png" alt="Logo Studio Legale Maurizio Marino">
+        <h3>Avv. Maurizio Marino</h3>
+    </div>
+    <nav>
+        <a href="#chi">Chi Sono</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Studio Legale Maurizio Marino</h1>
+    <p>Assistenza legale professionale, discreta e orientata ai risultati. Studio situato a Portici, Via De Gregorio 10.</p>
+    
+    <a href="tel:0817764044" class="consulenza-btn" style="display:inline-block; text-decoration:none; text-align:center;">
+        Ottieni una consulenza
+    </a>
+</div>
+
+<section id="chi">
+    <div class="chi-box">
+    <h2>Chi Sono</h2>
+    <p>L'Avvocato Maurizio Marino offre consulenza legale personalizzata con un approccio moderno, chiaro e orientato alla soluzione. Con esperienza in diversi ambiti del diritto, lo studio si distingue per professionalità, trasparenza e attenzione al cliente. Ogni caso viene analizzato con precisione strategica, garantendo assistenza continua e comunicazione chiara durante tutte le fasi della consulenza e del procedimento legale.</p>
+    <p>Lo studio legale opera con un metodo basato sull'ascolto attivo, sull'analisi approfondita delle problematiche giuridiche e sulla ricerca della soluzione più efficace e sostenibile per il cliente, sia in ambito giudiziale che in consulenza preventiva.</p>
+    </div>
+</section>
+
+<section id="servizi">
+    <h2>Servizi Legali</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Gestore della Crisi</h3>
+            <p>Supporto professionale nelle procedure di composizione della crisi e gestione del sovraindebitamento, con assistenza completa al cliente.</p>
+        </div>
+        <div class="card">
+            <h3>Diritto Civile</h3>
+            <p>Consulenza e assistenza nelle controversie civili, contratti e responsabilità. Attività come gestore della crisi con supporto nella gestione delle situazioni di sovraindebitamento e ristrutturazione.</p>
+        </div>
+
+        <div class="card">
+            <h3>Diritto Penale</h3>
+            <p>Difesa e consulenza legale in procedimenti penali con strategia mirata.</p>
+        </div>
+
+        <div class="card">
+            <h3>Diritto del Lavoro</h3>
+            <p>Tutela dei diritti dei lavoratori e consulenza aziendale.</p>
+        </div>
+
+        <div class="card">
+            <h3>Consulenza Aziendale</h3>
+            <p>Supporto legale per imprese, startup e professionisti.</p>
+        </div>
+    </div>
+
+</section>
+
+<section id="contatti">
+    <h2>Contatti</h2>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center;">
+        <div>
+            <p><strong>Sede principale:</strong> Via De Gregorio 10, Portici</p>
+            <p><strong>Sede Roma:</strong> Via dell'Oceano Indiano 100, Roma</p>
+            <p><strong>Telefono:</strong> 081 776 4044</p>
+            <a href="tel:0817764044" class="consulenza-btn" style="display:inline-block; text-decoration:none; text-align:center;">
+                Ottieni una consulenza
+            </a>
+        </div>
+        
+        <div>
+            <a href="https://www.google.com/maps?q=Via+De+Gregorio+10+Portici" target="_blank" style="text-decoration:none;">
+                <div style="display:flex; flex-direction:column; gap:15px;">
+                <a href="https://www.google.com/maps?q=Via+De+Gregorio+10+Portici" target="_blank">
+                    <iframe src="https://www.google.com/maps?q=Via+De+Gregorio+10+Portici&output=embed" width="100%" height="200" style="border:0; border-radius:15px;"></iframe>
+                </a>
+                <a href="https://www.google.com/maps?q=Via+dell'Oceano+Indiano+100+Roma" target="_blank">
+                    <iframe src="https://www.google.com/maps?q=Via+dell'Oceano+Indiano+100+Roma&output=embed" width="100%" height="200" style="border:0; border-radius:15px;"></iframe>
+                </a>
+            </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Studio Legale Maurizio Marino - Tutti i diritti riservati</p>
+</footer>
+
+</body>
+</html>
